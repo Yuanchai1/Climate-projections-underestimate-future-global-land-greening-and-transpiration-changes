@@ -24,7 +24,7 @@ h.Position = [0.1 0.12 0.8 0.05]; %[left bottom width height]
 caxis([-0.1 0.1]);
 x =0;
 y = -60;
-text(x, y, 'Historical LAI trend: CMIP6 Inter-ESM mean minus observation', 'FontSize', 11, 'HorizontalAlignment', 'center');
+text(x, y, 'Differences in historical LAI trend: CMIP6 minus observation', 'FontSize', 11, 'HorizontalAlignment', 'center');
 x = 0;
 y = -75;
 text(x, y, '(m^2 m^-^2 decade^-^1)', 'FontSize', 11, 'HorizontalAlignment', 'center');
